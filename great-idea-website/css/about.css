@@ -169,8 +169,11 @@ h5 {
 	box-sizing: inherit;
 }
 
-.main {
+body {
 	margin-top: 100px;
+	margin: 0;
+	height: 100%;
+	overflow: hidden
 }
 
 .container {
@@ -223,34 +226,10 @@ header {
 	display: inline-block;
 }
 
-
-.top-content div {
-	width: 49%;
-	/* margin: 0px; */
-	display: inline-block;
-	margin-left: 8px;
+iframe {
+	display: inlien-block;
+	margin: 37px;
 }
-
-.middle-img {
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 98%;
-	margin-top: 20px;
-	margin-bottom: 30px;
-}
-
-.bottom-content div {
-	width: 33%;
-	/* margin: 0px; */
-	display: inline-block;
-}
-
-p {
-	line-height: 1.25;
-	margin: 20px 0;
-}
-
 
 h1 {
 	font-family: "Pacifico";
@@ -259,44 +238,20 @@ h1 {
 	margin-top: 100px;
 }
 
-h2 {
-	text-align: left;
-}
-
-button {
-	font-size: 20px;
-	border: 1px solid grey;
-	/* I can't change the font of the submit button */
-	font-family: 'Libre Barcode 39';
-	padding: 5px 40px 5px 40px;
-	margin-left: 140px;
-	margin-top: 10px;
-}
-
-button:hover {
-	background-color: orange;
-}
-
-img {
-	display: inline-block;
-}
-
 hr {
 	margin-top: 100px;
 	margin-bottom: 30px;
-}
-
-#hr-bottom {
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 address {
+	text-align: center;
 	font-family: "Audiowide";
 }
 
 footer {
 	text-align: center;
-	margin-left: 50px;
+	margin-left: 25px;
 	margin-bottom: 100px;
 	margin-top: 50px;
 }
