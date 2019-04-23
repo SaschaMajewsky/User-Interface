@@ -200,12 +200,25 @@ nav {
 	display: inline-block;
 }
 
-.header-img {
-	float: right;
-}
 
 .top-content div {
 	width: 49%;
+	/* margin: 0px; */
+	display: inline-block;
+	margin-left: 8px;
+}
+
+.middle-img {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 98%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.bottom-content div {
+	width: 33%;
 	/* margin: 0px; */
 	display: inline-block;
 }
@@ -248,10 +261,16 @@ img {
 
 hr {
 	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+#hr-bottom {
+	margin-top: 40px;
 }
 
 footer {
 	text-align: center;
-	display: block;
+	margin-left: 50px;
 	margin-bottom: 100px;
+	margin-top: 50px;
 }
